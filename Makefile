@@ -4,7 +4,7 @@
 all: hw1
 
 lab1: hw1.cpp fonts.h
-	g++ hw11.cpp libggfonts.a -Wall -ohw1 -lX11 -lGL -lGLU -lm -lrt
+	g++ hw1.cpp libggfonts.a -Wall -ohw1 -lX11 -lGL -lGLU -lm -lrt
 
 clean:
 	rm -f hw1
